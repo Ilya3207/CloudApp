@@ -10,7 +10,7 @@ int main() {
     cout << "print data:" << endl;
     getline(cin, data);
     
-    ofstream outFile("output.txt"); // change the output print
+    ofstream outFile("/Users/user/Downloads/output.txt"); // change the output print
     
     if (outFile.is_open()) {
         outFile << data;
